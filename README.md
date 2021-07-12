@@ -23,9 +23,11 @@
 <h1> 로또 api </h1>
 <h3>사용자 로또 추천 리스트</h3>
 요청 url : "/mit/lottolist" <br>
+post 방식<br>
 UserVO의 id 와 email을 json형식으로 보내면 해당 사용자의 로또 추천 내역이 json 형식으로 응답함<br>
 <h3>로또 추천</h3>
 요청 url : "/mit/lotto" <br>
+post 방식<br>
 UserVO의 id 와 email을 json형식으로 보내면 해당 로또 번호 6개가 DB에 저장후 json 형식으로 응답함<br>
 
   
